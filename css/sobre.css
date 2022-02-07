@@ -1,0 +1,47 @@
+.sobre{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding:1rem 0;
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.sobre h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobre p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.sobre__caixa{
+    padding:0 5rem;
+}
+
+@media screen and (min-width: 0px) {
+
+    .sobre{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 1rem 0;
+    }
+
+    .sobre p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .sobre p{
+        font-size: 20px;
+    }
+}

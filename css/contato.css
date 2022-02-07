@@ -1,0 +1,82 @@
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.contato__container{
+    background-color: rgb(245, 240, 240);
+    min-width: 350px;
+    min-height: 80vh;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.contato h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    position: relative;
+}
+
+form label{
+    display: block;
+    margin: 20px 0 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.input-field input, textarea{
+    outline: none;
+    font-size: 0.9rem;
+    width: 100%;
+    border: 1px solid rgba(199, 8, 8, 0.945) ;
+    border-radius: 8px;
+    box-shadow: 0 3px 0 rgb(0, 0, 0, 0.1);
+    padding:0.6rem 0;
+}
+
+.input-field input::placeholder{
+    padding-left: 1rem;
+}
+
+/*.inputprincipal{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid rgba(199, 8, 8, 0.945) ;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 rgb(0, 0, 0, 0.1);
+}*/
+
+form input[type="submit"]{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top:2rem;
+    background: rgba(199, 8, 8, 0.945);
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight:bold;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+    transition: 00.5s all ease;
+}
+
+.enviar:hover{
+    transform: scale(1.04);
+    letter-spacing: 0.5px;
+}

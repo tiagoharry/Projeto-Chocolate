@@ -4,129 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width">
     <title>Chocolate Sensual</title>
-    <link rel="stylesheet" href="index.css">
     <link rel="icon" href="./fotos/logo_choco.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/integrantes.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://kit.fontawesome.com/fbb6032aaa.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="cabecalho">
-            <!-- <img src="./fotos/logo_choco.png" class="logo" alt="logo da banda" width="100"> -->
-            <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link" href="">home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#sobrelink">sobre</a></li>
-                <li class="menu__item"><a class="menu__link" href="#contatolink">contato</a></li>
+        <img class="logo" src="./fotos/logo_choco.png" alt="">
+        <nav class="menu">
+            <ul class="menu__lista"> 
+                <li class="menu__item"><a class="menu__link" href="">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#sobre__link">Sobre</a></li>
+                <li class="menu__item"><a class="menu__link" href="#integrantes__link">Integrantes</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contato__link">Contato</a></li>
             </ul>
-            </nav>
+        </nav>
     </header>
+<main>
 
+    <section class="banner">
+       <img class="banner__imagem" src="./fotos/index1.jpeg" alt="">
+    </section>
 
-    <img class="imageIndex" src="index.jpg" alt="integrantes da banda">
+    <section class="video">
+       
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/JD9wT_Qy9Pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    </section>
 
-    <main>
+    <section class="sobre" id="sobre__link">
+        <div class="sobre__caixa">
+            <h2>A banda</h2>
+                    <p>Chocolate Sensual é uma banda antológica de Recife/PE sendo principalmente reconhecida 
+                        pelo seu jeito despojado. 
+                        Nosso nome pode até lhe causar estranheza e muitos ainda torcem o nariz mas, 
+                        após nos ver tocando, todos entram na brincadeira! Temos nosso estilo único 
+                        baseado no Heavy Metal Tradicional chamado, O Heavy Metal Gostoso.</p>
+                        <p>Accusamus ea nulla laudantium reprehenderit quis, hic exercitationem? </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quis, aliquid tenetur atque, quod accusamus in voluptate provident minima dignissimos ipsa 
+                        necessitatibus! 
+                        Rem recusandae vitae inventore odit id quibusdam iusto omnis.</p>
+        </div>
+    </section>
+    <section class="integrantes" id="integrantes__link">
+        <h2 class="integrantes__titulo">Integrantes</h2>
+        <div class="pessoas">
 
-        <div class="corpo">
-        
-        <div class="video">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/JD9wT_Qy9Pc" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen> style="m"</iframe>
-        
+            <div class="pessoas">
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--babe"></div>
+                    <span class="pessoa__nome">Ricardo Berardo</span>
+                    <span class="pessoa__funcao">Baixo</span>
+                </div>
 
-            <div id="sobrelink" class="sobreabanda">
-                <h2>A banda</h2>
-                <p>Chocolate Sensual é uma banda antológica de Recife/PE sendo principalmente reconhecida 
-                    pelo seu jeito despojado. 
-                    Nosso nome pode até lhe causar estranheza e muitos ainda torcem o nariz mas, 
-                    após nos ver tocando, todos entram na brincadeira! Temos nosso estilo único 
-                    baseado no Heavy Metal Tradicional chamado, O Heavy Metal Gostoso.</p>
-                    <p>Accusamus ea nulla laudantium reprehenderit quis, hic exercitationem? </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quis, aliquid tenetur atque, quod accusamus in voluptate provident minima dignissimos ipsa 
-                    necessitatibus! 
-                    Rem recusandae vitae inventore odit id quibusdam iusto omnis.</p>
-            </div>
+                
+                    <div class="pessoa">
+                        <div class="pessoa__imagem pessoa__imagem--tiago"></div>
+                        <span class="pessoa__nome">Tiago Assis</span>
+                        <span class="pessoa__funcao">Guitarra</span>
+                    </div>
 
-            <section class="quem-somos">
-                    <h3 class="quem-somos__titulo">Quem somos</h3>
-
-                    <div class="pessoas">
+                   
                         <div class="pessoa">
-                            <div class="pessoa__imagem pessoa__imagem--babe"></div>
-                            <span class="pessoa__nome">Ricardo Berardo</span>
-                            <span class="pessoa__funcao">Baixo</span>
+                            <div class="pessoa__imagem pessoa__imagem--leo"></div>
+                            <span class="pessoa__nome">Leonardo Frias</span>
+                            <span class="pessoa__funcao">Voz</span>
                         </div>
 
-                        <div class="pessoas">
+                       
                             <div class="pessoa">
-                                <div class="pessoa__imagem pessoa__imagem--tiago"></div>
-                                <span class="pessoa__nome">Tiago Assis</span>
+                                <div class="pessoa__imagem pessoa__imagem--ben"></div>
+                                <span class="pessoa__nome">Benedito Canto</span>
                                 <span class="pessoa__funcao">Guitarra</span>
                             </div>
 
-                            <div class="pessoas">
+                            
                                 <div class="pessoa">
-                                    <div class="pessoa__imagem pessoa__imagem--leo"></div>
-                                    <span class="pessoa__nome">Leonardo Frias</span>
-                                    <span class="pessoa__funcao">Voz</span>
+                                    <div class="pessoa__imagem pessoa__imagem--digao"></div>
+                                    <span class="pessoa__nome">Rodrigo Aguiar</span>
+                                    <span class="pessoa__funcao">Bateria</span>
                                 </div>
+                    
+        </div>
+    </section>
 
-                                <div class="pessoas">
-                                    <div class="pessoa">
-                                        <div class="pessoa__imagem pessoa__imagem--ben"></div>
-                                        <span class="pessoa__nome">Benedito Canto</span>
-                                        <span class="pessoa__funcao">Guitarra</span>
-                                    </div>
+    <section class="contato" id="contato__link">
+        <div class="contato__container">
+            <h2>Contato</h2>
 
-                                    <div class="pessoas">
-                                        <div class="pessoa">
-                                            <div class="pessoa__imagem pessoa__imagem--digao"></div>
-                                            <span class="pessoa__nome">Rodrigo Aguiar</span>
-                                            <span class="pessoa__funcao">Bateria</span>
-                                        </div>
-
-                    </div>
+            <form action="">
+                <div class="input-field">
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="inputprincipal" placeholder="Digite o seu nome" required>
                 </div>
-        
-
-        <div id="contatolink" class="contato">
-            <form >
-                <h2>Contato</h2>
-                <label for="nomesobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomesobrenome" class="inputprincipal" required>
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" class="inputprincipal" required>
-                
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="inputprincipal" placeholder="(xx)xxxx-xxxx">
-
-                <label for="mensagem">Mensagem</label>
-                <textarea name="" id="mensagem" class="inputprincipal" cols="30" rows="10"></textarea>
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="inputprincipal" placeholder="seuemail@email.com" required>
+                </div>
+                <div class="input-field">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="inputprincipal" placeholder="(xx)xxxx-xxxx">
+                </div>
+                <div class="input-field">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="" id="mensagem" class="inputprincipal" cols="45" rows="10"></textarea>
+                </div>
 
                 <input type="submit" value="Enviar" class="enviar">
             </form>
         </div>
-        </div>
-        </section>
-    </main>
-    
+    </section>
+
     <footer>
        
         <div class="caixasocial">
             
             <nav class="redesocial">           
-                <a href="http://www.instagram.com/chocolatesensualofficial">instagram</a>
-                <a href="http://www.youtube.com/chocosex">youtube</a> 
+                <a href="http://www.instagram.com/chocolatesensualofficial"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="http://www.youtube.com/chocosex"><i class="fab fa-youtube"></i>YouTube</a> 
             </nav>
 
         </div>
 
-        <p class="copyright"> &copy; Chocolate Sensual - 2022</p>
+        <p class="copyright"> &copy; Chocolate Sensual - 2022</p> 
 
     </footer>
-
+</main>    
 </body>
 </html>
