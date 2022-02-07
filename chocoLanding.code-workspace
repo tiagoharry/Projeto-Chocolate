@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../Pasta Sem Título"
+		}
+	],
+	"settings": {
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+			{
+				"type": "pwa-node",
+				"request": "launch",
+				"name": "Launch Program",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"program": "/Users/tiago/Documents/Documentos - MacBook Air de Tiago/Estudo/Pasta Sem Título/aula js/loop.js",
+				"__workspaceFolder": "/Users/tiago/Documents/Documentos - MacBook Air de Tiago/Estudo/Pasta Sem Título/aula js"
+			}
+		]
+	}
+}

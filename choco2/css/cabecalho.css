@@ -1,0 +1,62 @@
+.cabecalho{
+    align-items: center;
+    background: whitesmoke;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 0.5px solid rgb(212, 209, 209);
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    list-style: none;
+}
+
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}
+
+.menu__link{
+    color: rgba(199, 8, 8, 0.945);
+    margin-right: 1.25rem;
+    font-size: 1.2rem;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 00.5s all ease;
+}
+
+.menu__link:hover{
+    color: black;
+}
+
+@media screen and (min-width: 0px) {
+    .logo{
+        display: none;
+    }
+
+    .cabecalho{
+        justify-content: center;
+        padding: 1rem 1rem;
+    }
+}
+
+.logo{
+    width: 9%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .logo{
+        display: block;
+    }
+
+    .cabecalho{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    
+}
