@@ -2,6 +2,26 @@
     position: relative;
 }
 
-.banner__imagem{
-    width: 100%;    
+.banner__imagem1{
+    width: 100%; 
+    
+      
+}
+
+@media screen and (min-width: 0px) {
+    .banner img{
+       height: 100vh;
+       object-fit: cover;
+       max-height: 420px;
+
+    }
+   
+}
+
+@media screen and (min-width: 768px){
+    .banner img{
+        height: 100vh;
+        object-fit:cover;
+        max-height: 650px;
+}
 }
