@@ -80,3 +80,18 @@ form input[type="submit"]{
     transform: scale(1.04);
     letter-spacing: 0.5px;
 }
+
+@media screen and (min-width:0px) {
+     /*.contato{
+        flex-wrap: wrap;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        
+    }*/
+
+    .contato__container{
+        min-height: 59vh;
+        
+    }
+}

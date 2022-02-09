@@ -35,26 +35,29 @@
 
 @media screen and (min-width: 0px) {
     .logo{
-        display: none;
+        width:40%;
+        text-align: center;
+        /*display: none;*/
     }
 
     .cabecalho{
         justify-content: center;
         padding: 1rem 1rem;
+        /*text-align: center;
+        align-items: initial;*/
+        flex-direction: column;
     }
-}
-
-.logo{
-    width: 9%;
 }
 
 @media screen and (min-width: 768px) {
 
     .logo{
         display: block;
+        width: 9%;
     }
 
     .cabecalho{
+        flex-direction: row;
         justify-content: space-between;
         padding: 0 5rem;
     }
