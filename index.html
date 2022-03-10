@@ -15,37 +15,42 @@
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/footer.css">
     <script src="https://kit.fontawesome.com/fbb6032aaa.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
     <header class="cabecalho">
          
             <img class="logo" src="./fotos/logo_choco.png" alt="">
-            <nav class="menu">
+            
+            <nav id="menu">
+                <button id="btn_mobile">
+                    <span id="hamburguer"></span>
+                </button>
                 <ul class="menu__lista"> 
-                    <li class="menu__item"><a class="menu__link" href="">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">Início</a></li>
                     <li class="menu__item"><a class="menu__link" href="#sobre__link">Sobre</a></li>
                     <li class="menu__item"><a class="menu__link" href="#integrantes__link">Integrantes</a></li>
                     <li class="menu__item"><a class="menu__link" href="#contato__link">Contato</a></li>
                 </ul>
             </nav>
-        
     </header>
 <main>
 
     <section class="banner">
-        <!--<picture>
-            <source class="banner__imagem1" srcset="./fotos/index1.jpeg" media="(min-width:0px)">
-            <source class="banner__imagem2" srcset="./fotos/index2.jpg" media="(min-width:768px)">
-        </picture>!-->
-
-        <img class="banner__imagem1" src="./fotos/index2.jpg" alt="">
-       <!--<img class="banner__imagem2" src="./fotos/index2.jpg" alt="">!-->
-      
+        
+      <div class=" banner_container">
+        <img class="banner__imagem" src="./fotos/IMG_3842.jpg" alt="">
+        <span id="banner_texto">O heavy metal gostoso</span> 
+      </div>
     </section>
 
     <section class="video">
-       
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/JD9wT_Qy9Pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <div class="video_container">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/JD9wT_Qy9Pc" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe> 
+        </div>
     </section>
 
     <section class="sobre" id="sobre__link">
@@ -120,7 +125,7 @@
                 </div>
                 <div class="input-field">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="inputprincipal" placeholder="(xx)xxxx-xxxx">
+                    <input type="tel" id="telefone" class="inputprincipal" placeholder="(xx)xxxx-xxxxx" minlength="10">
                 </div>
                 <div class="input-field">
                     <label for="mensagem">Mensagem</label>
@@ -137,8 +142,8 @@
         <div class="caixasocial">
             
             <nav class="redesocial">           
-                <a href="http://www.instagram.com/chocolatesensualofficial"><i class="fab fa-instagram"></i>Instagram</a>
-                <a href="http://www.youtube.com/chocosex"><i class="fab fa-youtube"></i>YouTube</a> 
+                <a href="http://www.instagram.com/chocolatesensualofficial"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.youtube.com/chocosex"><i class="fab fa-youtube"></i></a> 
             </nav>
 
         </div>
@@ -146,6 +151,7 @@
         <p class="copyright"> &copy; Chocolate Sensual - 2022</p> 
 
     </footer>
-</main>    
+</main> 
+<script src="./js/menu.js"></script>
 </body>
 </html>

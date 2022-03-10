@@ -10,6 +10,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem 0;
 }
 
 .redesocial a{
@@ -26,6 +27,7 @@ footer{
 
 .redesocial i{
     padding-right: 0.5rem;
+    font-size: 32px;
 }
     
 .redesocial a:hover{
@@ -35,4 +37,6 @@ footer{
 .copyright{
     color: white;
     margin-top: 20px;
+    padding: 1rem 0;
+    border-top: 2px solid rgb(224, 223, 223);
 }

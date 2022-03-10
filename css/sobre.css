@@ -1,21 +1,20 @@
 .sobre{
     font-family: 'Barlow Condensed', sans-serif;
-    padding:1rem 0;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;   /* border-left: 1px solid white;
+    border-right: 1px solid white;*/
 }
 
 .sobre h2{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30px;
+    color: white;
 }
 .sobre p{
     font-size: 20px;
     margin-top: 15px;
+    color: white;
 }
 
 .sobre__caixa{
@@ -25,9 +24,8 @@
 @media screen and (min-width: 0px) {
 
     .sobre{
-        margin-left: 2rem;
-        margin-right: 2rem;
-        padding: 1rem 0;
+        
+        padding: 5rem 0;
     }
 
     .sobre p{
@@ -37,8 +35,7 @@
 
 @media screen and (min-width: 768px) {
     .sobre{
-        margin-left: 6rem;
-        margin-right: 6rem;
+        margin-top: 5rem;
     }
 
     .sobre p{

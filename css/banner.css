@@ -1,11 +1,23 @@
-.banner{
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Staatliches&display=swap');
+
+
+.banner_container{
     position: relative;
 }
+.banner_container .banner__imagem{
+    width: 100%;  
+    object-fit:cover;
+}
 
-.banner__imagem1{
-    width: 100%; 
-    
-      
+.banner #banner_texto{
+    position:absolute;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+    bottom: 0;
+    right: 0;
+    width: 70%;
 }
 
 @media screen and (min-width: 0px) {
@@ -15,13 +27,25 @@
        max-height: 420px;
 
     }
+
+    .banner #banner_texto{
+        font-size: 3em ;
+        text-align: center;
+        padding: 50px;
+    }
    
 }
 
 @media screen and (min-width: 768px){
     .banner img{
         height: 100vh;
-        object-fit:cover;
+       
         max-height: 650px;
-}
+    }
+
+    .banner #banner_texto{
+        font-size: 5em;
+        padding: 100px;
+       
+    }
 }

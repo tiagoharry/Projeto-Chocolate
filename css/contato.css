@@ -7,10 +7,11 @@
 }
 
 .contato__container{
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(190, 188, 188);
     min-width: 350px;
     min-height: 80vh;
     padding: 2rem;
+    box-sizing: border-box;
     border-radius: 8px;
 }
 
@@ -92,6 +93,13 @@ form input[type="submit"]{
 
     .contato__container{
         min-height: 59vh;
+        width: 5px;
         
+    }
+}
+
+@media screen and (min-width: 768px){
+    .contato__container{
+        width: auto;
     }
 }
