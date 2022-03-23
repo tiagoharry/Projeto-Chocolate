@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700&display=swap');
+
+
 .contato{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Barlow Condensed', sans-serif;
-
+    
+    font-weight: 500;  
+    margin-top: 5rem;
 }
 
-.contato__container{
+.contato__botao{
+    border: 1px solid rgba(199, 8, 8, 0.945);
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;      
+    font-size: 1em;
+    text-transform: uppercase;
+    color: black;
+    padding:1rem 5rem;
+    cursor: pointer;
+    transition: 0.6s all;
+}
+
+.contato__botao:hover{
+    background-color:rgba(199, 8, 8, 0.945);
+    color: white;
+}
+
+/*.contato__container{
     background-color: rgb(190, 188, 188);
     min-width: 350px;
     min-height: 80vh;
@@ -61,7 +84,7 @@ form label{
     box-shadow: 0 3px 0 rgb(0, 0, 0, 0.1);
 }*/
 
-form input[type="submit"]{
+/*form input[type="submit"]{
     width: 100%;
     padding: 0.5rem;
     margin-top:2rem;
@@ -91,7 +114,7 @@ form input[type="submit"]{
         
     }*/
 
-    .contato__container{
+    /*.contato__container{
         min-height: 59vh;
         width: 5px;
         
@@ -102,4 +125,4 @@ form input[type="submit"]{
     .contato__container{
         width: auto;
     }
-}
+}*/

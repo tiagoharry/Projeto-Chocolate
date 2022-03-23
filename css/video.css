@@ -1,7 +1,3 @@
-.video{
-   
-}
-
 .video_container{
     width: 100%;
     height: 100%;
@@ -9,8 +5,7 @@
 
 .video_container iframe{
     width: 100%;
-    height: 100%;
-   
+    height: 100%; 
 }
 
 @media screen and (min-width: 0px) {

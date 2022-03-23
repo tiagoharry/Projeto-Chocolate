@@ -1,44 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700&display=swap');
+
 .sobre{
     font-family: 'Barlow Condensed', sans-serif;
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-    background-blend-mode: multiply;   /* border-left: 1px solid white;
-    border-right: 1px solid white;*/
+    background-blend-mode: multiply;
 }
 
 .sobre h2{
-    font-weight: bold;
+    font-weight: 700;   
     text-transform: uppercase;
     font-size: 30px;
     color: white;
 }
 .sobre p{
-    font-size: 20px;
+    font-family: 'Raleway', sans-serif;    
+    font-weight: 100;
     margin-top: 15px;
     color: white;
 }
 
-.sobre__caixa{
-    padding:0 5rem;
-}
-
 @media screen and (min-width: 0px) {
 
-    .sobre{
-        
-        padding: 5rem 0;
+    .sobre__caixa{
+        padding:4rem 2rem ;
     }
 
     .sobre p{
-        font-size: 15px;
+        font-size: 1.1em;
     }
 }
 
 @media screen and (min-width: 768px) {
     .sobre{
         margin-top: 5rem;
+        padding:1rem 10rem;
     }
 
     .sobre p{
-        font-size: 20px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 940px){
+
+    .sobre{
+        margin: 5rem 6rem 0 6rem;
     }
 }
